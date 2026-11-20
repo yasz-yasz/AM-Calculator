@@ -115,10 +115,8 @@ fun AwardChartScreen() {
                         )
                         TableHeaderCell("Eco", Modifier.weight(1f))
                         TableHeaderCell("P.Eco", Modifier.weight(1f))
-                        TableHeaderCell("Biz /
-Aria", Modifier.weight(1f))
-                        TableHeaderCell("First
-Suite", Modifier.weight(1f))
+                        TableHeaderCell("Biz /\nAria", Modifier.weight(1f))
+                        TableHeaderCell("First\nSuite", Modifier.weight(1f))
                     }
 
                     DistanceBand.entries.forEachIndexed { idx, band ->
